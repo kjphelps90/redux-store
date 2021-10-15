@@ -1,4 +1,4 @@
-import React from 'react';
+limport React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {
   ApolloClient,
@@ -9,7 +9,7 @@ import {
 import { setContext } from '@apollo/client/link/context';
 
 import { Provider } from 'react-redux';
-import { Store } from './utils/store';
+import store from './utils/store';
 
 import Home from './pages/Home';
 import Detail from './pages/Detail';
